@@ -1,0 +1,25 @@
+/* TaskList.css */
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.task-table th, .task-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center; /* Align content horizontally */
+    vertical-align: middle; /* Align content vertically */
+}
+
+.task-table th {
+    background-color: #f2f2f2;
+}
+
+.task-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.task-table tbody tr:hover {
+    background-color: #ddd;
+}
